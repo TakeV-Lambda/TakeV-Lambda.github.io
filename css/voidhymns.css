@@ -10,8 +10,13 @@ body {
 
 .container {
     text-align: center;
+}
+
+@media screen and (min-width: 700px) {
+  .container {
     margin-left: 20%;
     margin-right: 20%;
+  }
 }
 
 .container > img {
