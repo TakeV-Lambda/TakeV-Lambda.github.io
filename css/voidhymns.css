@@ -12,7 +12,7 @@ body {
     text-align: center;
 }
 
-@media screen and (min-width: 800px) {
+@media screen and (min-width: 1025px) {
   .container {
     margin-left: 20%;
     margin-right: 20%;
