@@ -74,3 +74,22 @@ th {
   border: 1px solid #aaa;
 }
 
+#scrying-results {
+    font-family: 'CMUTypewriterTextRegular';
+    font-weight: normal;
+    font-style: normal;
+    background-color: #40385b;
+    padding: 0.5em;
+
+  background: -moz-linear-gradient(45deg, transparent 10px, #40385b 10px), -moz-linear-gradient(135deg, transparent 10px, #40385b 10px), -moz-linear-gradient(225deg, transparent 10px, #40385b 10px), -moz-linear-gradient(315deg, transparent 10px, #40385b 10px);
+  background: -o-linear-gradient(45deg, transparent 10px, #40385b 10px), -o-linear-gradient(135deg, transparent 10px, #40385b 10px), -o-linear-gradient(225deg, transparent 10px, #40385b 10px), -o-linear-gradient(315deg, transparent 10px, #40385b 10px);
+  background: -webkit-linear-gradient(45deg, transparent 10px, #40385b 10px), -webkit-linear-gradient(135deg, transparent 10px, #40385b 10px), -webkit-linear-gradient(225deg, transparent 10px, #40385b 10px), -webkit-linear-gradient(315deg, transparent 10px, #40385b 10px);
+  background-position: bottom left, bottom right, top right, top left;
+  -moz-background-size: 50% 50%;
+  -webkit-background-size: 50% 50%;
+  background-size: 50% 50%;
+  background-repeat: no-repeat;
+}
+
+#scrying-results > span {
+}

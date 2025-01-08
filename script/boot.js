@@ -19,6 +19,7 @@ window.addEventListener("load", async () => {
         element: {
           value: (elem) => elem.value,
           setValue: (elem, value) => elem.value = value,
+	  setInnerText: (elem, innerText) => elem.innerText = innerText,
 	  setInnerHTML: (elem, innerHtml) => elem.innerHTML = innerHtml,
           width: (elem) => elem.width,
           height: (elem) => elem.height,
