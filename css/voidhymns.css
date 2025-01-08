@@ -74,6 +74,14 @@ th {
   border: 1px solid #aaa;
 }
 
+td, th {
+    padding: 2px;
+}
+
+td {
+    text-align: left;
+}
+
 #scrying-results {
     font-family: 'CMUTypewriterTextRegular';
     font-weight: normal;
