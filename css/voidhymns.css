@@ -1,11 +1,11 @@
 body {
-  background-color: #282237;
-  color: #c0bfbc;
-  font-size: 16px;
-  line-height: 1.6;
-  letter-spacing: 0.1px;
-  font-weight: 300;
-  font-family: -apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,Oxygen-Sans,Ubuntu,Cantarell,'Helvetica Neue',sans-serif;
+    background-color: #282237;
+    color: #c0bfbc;
+    font-size: 16px;
+    line-height: 1.6;
+    letter-spacing: 0.1px;
+    font-weight: 300;
+    font-family: -apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,Oxygen-Sans,Ubuntu,Cantarell,'Helvetica Neue',sans-serif;
 }
 
 .container {
@@ -13,18 +13,18 @@ body {
 }
 
 @media screen and (min-width: 1025px) {
-  .container {
-    margin-left: 20%;
-    margin-right: 20%;
-  }
+    .container {
+	margin-left: 20%;
+	margin-right: 20%;
+    }
 }
 
 
 @media screen and (max-width: 1024px) {
-  .container {
-    margin-left: 5%;
-    margin-right: 5%;
-  }
+    .container {
+	margin-left: 5%;
+	margin-right: 5%;
+    }
 }
 
 .container > img {
@@ -34,44 +34,44 @@ body {
 }
 
 h1 {
-  font-weight: inherit;
+    font-weight: inherit;
 }
 
 h2 {
-  font-weight: inherit;
+    font-weight: inherit;
 }
 
 h3 {
-  font-weight: inherit;
+    font-weight: inherit;
 }
 
 h4 {
-  font-weight: inherit;
+    font-weight: inherit;
 }
 
 h5 {
-  font-weight: inherit;
+    font-weight: inherit;
 }
 
 h6 {
-  font-weight: inherit;
+    font-weight: inherit;
 }
 
 table {
-  border: 1px solid #aaa;
-  border-collapse: collapse;
+    border: 1px solid #aaa;
+    border-collapse: collapse;
 }
 
 caption {
-  caption-side: bottom;
+    caption-side: bottom;
 }
 
 thead {
-  border: 1px solid #aaa;
+    border: 1px solid #aaa;
 }
 
 th {
-  border: 1px solid #aaa;
+    border: 1px solid #aaa;
 }
 
 td, th {
@@ -89,14 +89,14 @@ td {
     background-color: #40385b;
     padding: 0.5em;
 
-  background: -moz-linear-gradient(45deg, transparent 10px, #40385b 10px), -moz-linear-gradient(135deg, transparent 10px, #40385b 10px), -moz-linear-gradient(225deg, transparent 10px, #40385b 10px), -moz-linear-gradient(315deg, transparent 10px, #40385b 10px);
-  background: -o-linear-gradient(45deg, transparent 10px, #40385b 10px), -o-linear-gradient(135deg, transparent 10px, #40385b 10px), -o-linear-gradient(225deg, transparent 10px, #40385b 10px), -o-linear-gradient(315deg, transparent 10px, #40385b 10px);
-  background: -webkit-linear-gradient(45deg, transparent 10px, #40385b 10px), -webkit-linear-gradient(135deg, transparent 10px, #40385b 10px), -webkit-linear-gradient(225deg, transparent 10px, #40385b 10px), -webkit-linear-gradient(315deg, transparent 10px, #40385b 10px);
-  background-position: bottom left, bottom right, top right, top left;
-  -moz-background-size: 50% 50%;
-  -webkit-background-size: 50% 50%;
-  background-size: 50% 50%;
-  background-repeat: no-repeat;
+    background: -moz-linear-gradient(45deg, transparent 10px, #40385b 10px), -moz-linear-gradient(135deg, transparent 10px, #40385b 10px), -moz-linear-gradient(225deg, transparent 10px, #40385b 10px), -moz-linear-gradient(315deg, transparent 10px, #40385b 10px);
+    background: -o-linear-gradient(45deg, transparent 10px, #40385b 10px), -o-linear-gradient(135deg, transparent 10px, #40385b 10px), -o-linear-gradient(225deg, transparent 10px, #40385b 10px), -o-linear-gradient(315deg, transparent 10px, #40385b 10px);
+    background: -webkit-linear-gradient(45deg, transparent 10px, #40385b 10px), -webkit-linear-gradient(135deg, transparent 10px, #40385b 10px), -webkit-linear-gradient(225deg, transparent 10px, #40385b 10px), -webkit-linear-gradient(315deg, transparent 10px, #40385b 10px);
+    background-position: bottom left, bottom right, top right, top left;
+    -moz-background-size: 50% 50%;
+    -webkit-background-size: 50% 50%;
+    background-size: 50% 50%;
+    background-repeat: no-repeat;
 }
 
 #scrying-results > span {
