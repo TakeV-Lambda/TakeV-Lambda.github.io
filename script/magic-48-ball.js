@@ -1,3 +1,4 @@
+// -*- js2-basic-offset: 4 -*-
 window.addEventListener("load", async () => {
     try {
 	await Scheme.load_main("/magic-48-ball.wasm", {
