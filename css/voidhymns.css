@@ -47,14 +47,14 @@ h6 {
   font-weight: inherit; }
 
 table {
-  border: 1px solid #aaa;
+  border: 1px solid #c0bfbc;
   border-collapse: collapse; }
 
 thead {
-  border: 1px solid #aaa; }
+  border: 1px solid #c0bfbc; }
 
 th {
-  border: 1px solid #aaa; }
+  border: 1px solid #c0bfbc; }
 
 td, th {
   padding: 2px; }
