@@ -48,7 +48,9 @@ h6 {
 
 table {
   border: 1px solid #c0bfbc;
-  border-collapse: collapse; }
+  border-collapse: collapse;
+  margin-left: auto;
+  margin-right: auto; }
 
 thead {
   border: 1px solid #c0bfbc; }
@@ -57,10 +59,14 @@ th {
   border: 1px solid #c0bfbc; }
 
 td, th {
-  padding: 2px; }
+  padding-left: .5em;
+  padding-right: .5em;
+  padding-top: .1em;
+  padding-bottom: .1em; }
 
 td {
-  text-align: left; }
+  text-align: left;
+  border-top: 1px solid #c0bfbc; }
 
 caption {
   caption-side: bottom; }
