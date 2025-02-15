@@ -23,6 +23,9 @@ a {
   display: flex;
   flex-flow: column wrap; }
 
+.post-container {
+  text-align: left; }
+
 @media screen and (min-width: 1025px) {
   .container {
     margin-left: 20%;
