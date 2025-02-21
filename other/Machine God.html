@@ -15,7 +15,8 @@
 
 [[The Machine-&gt;The Machine God]]
 [[The Artificer]]
-[[The King]] </tw-passagedata><tw-passagedata pid="2" name="The Machine God" tags="" position="900,100" size="100,100">(unless: $pc is &#39;Wizard&#39;)[ &#39;&#39;There is an image here of a triangle with a horizontal line, and three dragonflies on each point of the triangle. There is also a symbol of a circle with a dot, and a symbol of a crescent shape.&#39;&#39;]
+[[The King]]
+(if: $pc is &#39;Rachel&#39;)[ [[Rachel-&gt;Pre-Rachel]]]</tw-passagedata><tw-passagedata pid="2" name="The Machine God" tags="" position="900,100" size="100,100">(unless: $pc is &#39;Wizard&#39;)[ &#39;&#39;There is an image here of a triangle with a horizontal line, and three dragonflies on each point of the triangle. There is also a symbol of a circle with a dot, and a symbol of a crescent shape.&#39;&#39;]
 (else:)[&#39;&#39;There is an image here of the alchemical symbol for air, along with three dragonflies. There is also the symbol for the sun/gold and moon/silver, however in the context it seems to be spirit and mind. When you look closely, you notice the alchemical symbol for earth/body which seems to be bleeding through from the other side of the &#39;page&#39;&#39;&#39;]
 
 Once upon a time, there were three gods. Each of them loved the other very much. They flew down to one of the worlds they had taken a part in creating, hoping to see how far along it&#39;s lifeforms had progressed.
@@ -32,10 +33,10 @@ As such, we need to know who is the one viewing this.
 
 Who are you?
 
-(dropdown: 2bind $pc, &quot;Kit&quot;, &quot;Nikolai&quot;, &quot;Six&quot;,&quot;Suki&quot;,&quot;Wizard&quot;)
+(dropdown: 2bind $pc, &quot;Kit&quot;, &quot;Nikolai&quot;, &quot;Six&quot;,&quot;Suki&quot;, &quot;Rachel&quot;, &quot;Wizard&quot;)
 
-[[Start-&gt;Index]]</tw-passagedata><tw-passagedata pid="4" name="AUTH EXCEPTION" tags="" position="900,0" size="100,100">(text-style:&quot;mark&quot;,&quot;smear&quot;,&quot;expand&quot;)[^^An Error has occured^^
-//An exception has occured: &#39;&#39;invalid authorization, please enter credientials to view full data&#39;&#39;
+[[Start-&gt;Index]]</tw-passagedata><tw-passagedata pid="4" name="AUTH EXCEPTION" tags="" position="900,0" size="100,100">(text-style:&quot;mark&quot;,&quot;smear&quot;,&quot;expand&quot;)[^^An Error has occurred^^
+//An exception has occurred: &#39;&#39;invalid authorization, please enter credentials to view full data&#39;&#39;
 
 Stack Trace:
 * Mask.checkPermission
@@ -49,7 +50,7 @@ As I am carefully built and calibrated, I must operate according to the specific
 As I am carefully built and calibrated, I must operate according to the specifications of my maker~~]
 
 [[Next-&gt;Machine God Conclusion]]</tw-passagedata><tw-passagedata pid="5" name="Machine God Conclusion" tags="" position="1350,100" size="100,100">The Machine, the King, and the Artificer established a utopia, and lived happy and joyous lives as the kingdom flourished. The end. 
-(if: $pc is &quot;Six&quot;)[(if: $code is &quot;ib23&quot;)[The other god, Insight, is still around. She mourns Kindess within the Akashic Graveyard, and plots to free Wonder from her prison.]]
+(if: $pc is &quot;Six&quot;)[(if: $code is &quot;ib23&quot;)[The other god, Insight, is still around. She mourns Kindness within the Akashic Graveyard, and plots to free Wonder from her prison.]]
 
 \(unless:$pc is &quot;Kit&quot;)[[[Index-&gt;Index]]]
 \(else:)[
@@ -61,7 +62,7 @@ Code: (input-box:2bind $code,&quot;=XX=&quot;,&quot;code&quot;)
 (t8n-arrive:&quot;slide-down&quot;)[[Index-&gt;Index]]
 
 (if: $pc is &#39;Nikolai&#39;)[
-(text-style:&quot;subscript&quot;,&quot;blurrier&quot;,&quot;expand&quot;)[Nikolai: to ensure you aren&#39;t hurt, please don&#39;t look into this. Please don&#39;t use the code &#39;ib23&#39; to access information that could hurt you. Please don&#39;t draw attention to yourself.]]</tw-passagedata><tw-passagedata pid="7" name="Machine God Story" tags="" position="1100,100" size="100,100">Suddenly, disaster struck. A lightning bolt, thrown from a cruel god in hiding struck one of them, killing her instantly. Kindess had been slain.
+(text-style:&quot;subscript&quot;,&quot;blurrier&quot;,&quot;expand&quot;)[Nikolai: to ensure you aren&#39;t hurt, please don&#39;t look into this. Please don&#39;t use the code &#39;ib23&#39; to access information that could hurt you. Please don&#39;t draw attention to yourself.]]</tw-passagedata><tw-passagedata pid="7" name="Machine God Story" tags="" position="1100,100" size="100,100">Suddenly, disaster struck. A lightning bolt, thrown from a cruel god in hiding struck one of them, killing her instantly. Kindness had been slain.
 
 The bolt hit Wonder, destroying her precious wings. She fell to the ground, as the third was stunned by what had suddenly happened and she could not reach her in time.
 
@@ -83,7 +84,7 @@ The Machine helped the king grow the kingdom. She was provided the holy Artifice
 Each soul consumed was lost. Those who had been drawn in to the dream through the force of the Machine because disembodied souls, waiting to be vacuumed into the Machine&#39;s maw.]
 
 (if: $pc is &quot;Wizard&quot;)[[[Next-&gt;Machine God Bonus Wizard]]]
-(else:)[[[Next-&gt;Machine God Conclusion]]]</tw-passagedata><tw-passagedata pid="8" name="Machine God Bonus Kit" tags="" position="1475,100" size="100,100">The Artificer grew to understand that something was wrong. She spoke to the Machine, for they were close friends, and was able to see gaps in what the Machine was capable of saying.
+(else:)[[[Next-&gt;Machine God Conclusion]]]</tw-passagedata><tw-passagedata pid="8" name="Machine God Bonus Kit" tags="" position="1500,250" size="100,100">The Artificer grew to understand that something was wrong. She spoke to the Machine, for they were close friends, and was able to see gaps in what the Machine was capable of saying.
 She consulted a friend of hers, a scholar.
 
 &quot;I&#39;m sorry it took so long for me to find you,&quot; said the scholar. &quot;You are correct, something is wrong. I can help you see the entire truth. But there is a cost.&quot;
@@ -105,7 +106,7 @@ The situation didn&#39;t get any better when she got the job. She had the Spark,
 
 That night, she began to investigate.
 Do not worry Suki, your mother is safe. For now.]]
-(if: $pc is &quot;Wizard&quot;)[//Note: The &#39;Spark&#39; is commonly believed to be a magical trait only held by a select few. However, wizards who have attempted to study this phenominon have made the observation time and time again that speaking with machines is a skill which can be learned by anyone. The current belief is that the so-called Spark is a combination of this skill plus several personality traits.
+(if: $pc is &quot;Wizard&quot;)[//Note: The &#39;Spark&#39; is commonly believed to be a magical trait only held by a select few. However, wizards who have attempted to study this phenomenon have made the observation time and time again that speaking with machines is a skill which can be learned by anyone. The current belief is that the so-called Spark is a combination of this skill plus several personality traits.
 
 Oddly enough, in this country, that combination of traits and skills seem to be rare. As in the rarity is statistically significant.//]
 (if: $pc is &quot;Kit&quot;)[Fortunately, she had friends but didn&#39;t know it. They had been searching for her over the course of her entire life. She knew this before she was born, and she knew it once again after she died. It just took a while.]
@@ -125,12 +126,12 @@ I wonder if she had an instinct of what their relationship was on the other side
 She started reading between the lines, seeing the things which could not be said. I think she could do so because she saw me as a person too. When she realized a small part of the truth, she was inconsolable.
 
 I miss her. I know she will be back.]]
-[[Index-&gt;Index]]</tw-passagedata><tw-passagedata pid="10" name="Reports" tags="" position="775,325" size="100,100">[[Index-&gt;Index]] </tw-passagedata><tw-passagedata pid="11" name="The King" tags="" position="900,325" size="100,100">Once upon a time, there was a king.
+[[Index-&gt;Index]]</tw-passagedata><tw-passagedata pid="10" name="Reports" tags="" position="900,325" size="100,100">[[Index-&gt;Index]] </tw-passagedata><tw-passagedata pid="11" name="The King" tags="" position="950,225" size="100,100">Once upon a time, there was a king.
 
 He was a silly king, one who could not die or be harmed. But the people loved him, and he loved them.
 (unless: $code is &#39;ib23&#39;)[
-(text-style:&quot;mark&quot;,&quot;smear&quot;,&quot;expand&quot;)[^^An Error has occured^^
-//An exception has occured: &#39;&#39;invalid authorization, please enter credientials to view full data&#39;&#39;
+(text-style:&quot;mark&quot;,&quot;smear&quot;,&quot;expand&quot;)[^^An Error has occurred^^
+//An exception has occurred: &#39;&#39;invalid authorization, please enter credentials to view full data&#39;&#39;
 
 Stack Trace:
 * Mask.checkPermission
@@ -155,7 +156,72 @@ The man cured Pablo&#39;s cancer, and made him the king of an entire country!]]
 
 The cycle had never before been damaged, which created new and novel metaphysical conditions.
 
-[[Next-&gt;Machine God Conclusion]] </tw-passagedata></tw-storydata>
+[[Next-&gt;Machine God Conclusion]] </tw-passagedata><tw-passagedata pid="13" name="Rachel" tags="" position="875,625" size="100,100">(enchant:?page,(text-colour:black)+(bg:grey))
+
+(text-style:&quot;strike&quot;,&quot;blur&quot;,&quot;expand&quot;)[You&#39;re quite remarkable, little one.
+
+You are part of the nation, yet separate from it.
+At the top of the hierarchy, yet of the bottom.
+Your allies are in high places, and your friends are in low.
+
+It&#39;s freeing. The contradictions about you are libertory, yet you are true to you.
+
+I want to tell you a secret, something that none of the others know.]
+
+(t8n-depart:&quot;fade-up&quot;)+(t8n-arrive:&quot;fade-up&quot;)[[Next-&gt;Rachel-02]]</tw-passagedata><tw-passagedata pid="14" name="Pre-Rachel" tags="" position="825,475" size="100,100">(Due to limitations of this engine, background music cannot be added. You are recommended to put this one in the background on loop for the correct mood): https://music.youtube.com/watch?v=1TQkOnAv1iI&amp;si=WWO1E6lhANRVH_nm 
+
+(t8n-depart:&quot;blur&quot;)+(t8n-arrive:&quot;flicker&quot;)+(t8n-time:1.5s)[[Proceed-&gt;Rachel]]</tw-passagedata><tw-passagedata pid="15" name="Rachel-02" tags="" position="875,750" size="100,100">(enchant:?page,(text-colour:black)+(bg:grey))
+
+(text-style:&quot;strike&quot;,&quot;blur&quot;,&quot;expand&quot;)[Once, long ago, my loves and I had been gazing upon your galaxy from our own. We looked up and saw the stars, and loved to stay up all night guessing and speculating and filling our heads with so many ideas of what could be out there!
+
+(Oh sorry, I just realized that you don&#39;t know what stars are. They’re these little tiny bonfires in the skies where other worlds might be. Like lighthouses!)
+
+We wanted nothing more than to see what was out there. One of us wanted to find a universe that loved itself and its inhabitants which took care of each other. The other hoped to find new ways to look at the world, new perceptions which could be the foundation upon whole new understandings.
+
+Me? I just wanted that feeling of awe and possibility to never end.]
+
+(t8n-depart:&quot;fade-up&quot;)+(t8n-arrive:&quot;fade-up&quot;)[[Next-&gt;Rachel-03]]</tw-passagedata><tw-passagedata pid="16" name="Rachel-03" tags="" position="875,875" size="100,100">(enchant:?page,(text-colour:black)+(bg:grey))
+
+(text-style:&quot;strike&quot;,&quot;blur&quot;,&quot;expand&quot;)[Imagine our excitement when our little family got the chance to go out there with our own paint brushes, ready to create new worlds!
+
+We set out, through this world, flying through the fractal, jumping between worlds and planets. There is so much in the sky, I hope you get to see it someday.
+
+And we learned a lot about how the world works. I think we learned something between us three that not even most other gods know.
+
+Rachel, I&#39;m going to tell you this secret. It&#39;ll be between us two. Well, if you see my wife out there, then I guess it&#39;ll be between us three.]
+
+(t8n-depart:&quot;fade-up&quot;)+(t8n-arrive:&quot;fade-up&quot;)[[Next-&gt;Rachel-04]]</tw-passagedata><tw-passagedata pid="17" name="Rachel-04" tags="" position="875,1000" size="100,100">(enchant:?page,(text-colour:black)+(bg:grey))
+
+(text-style:&quot;strike&quot;,&quot;blur&quot;,&quot;expand&quot;)[The universe favors the silly.
+
+After the universe was created, the first god was the god of happiness. The universe wanted a friend, and made itself joy. Some fret about the &quot;point&quot; of life or existence, and make themselves miserable trying to find it. They can&#39;t just enjoy things for what they are.
+
+Take a look around, and you&#39;ll find pain, suffering, cruelty, and misery. You&#39;ll see so many terrible things done for the sake of those things, and for the sake of perpetuating them. Most of the time they say it&#39;s to &quot;protect&quot; everyone from something terrible. No, it&#39;s all for its own sake.
+
+There are bad people who were so hurt by something that they can&#39;t fathom any joy. So they study the &quot;Three Magics&quot; to try and control those as well. They know HOW the universe works, but they completely lost the plot on what the universe&#39;s tastes are.
+
+They can&#39;t fathom anything outside of their world view either. In their minds, hierarchy must exist, so they ignore anything not at the top. They didn&#39;t even notice that the Whurlid wasn&#39;t destroyed this time around. They don&#39;t see the value of friends in low places, because they only think in terms of utility.]
+
+(t8n-depart:&quot;fade-up&quot;)+(t8n-arrive:&quot;fade-up&quot;)[[Next-&gt;Rachel-05]]</tw-passagedata><tw-passagedata pid="18" name="Rachel-05" tags="" position="875,1125" size="100,100">(enchant:?page,(text-colour:black)+(bg:grey))
+
+(text-style:&quot;strike&quot;,&quot;blur&quot;,&quot;expand&quot;)[Stay hopeful. Stay optimistic. Don&#39;t let them break your spirits. Make the world a better place.
+
+When they try to break your reality, stay silly.
+When they try to make you into something you aren&#39;t, stay silly.
+When they try to control the narrative around you, stay silly.
+
+It&#39;ll work and they&#39;ll be SOOO MAD.]
+
+(t8n-depart:&quot;fade-up&quot;)+(t8n-arrive:&quot;fade-up&quot;)[[Next-&gt;Rachel-06]]</tw-passagedata><tw-passagedata pid="19" name="Rachel-06" tags="" position="875,1250" size="100,100">(enchant:?page,(text-colour:black)+(bg:grey))
+
+(text-style:&quot;strike&quot;,&quot;blur&quot;,&quot;expand&quot;)[I can&#39;t say much more. I hope this helped.
+
+If you see my wife, tell her that I love her.
+And if you ever figure out how to bring someone back from the dead, please tell her.]
+
+(t8n-depart:&quot;flicker&quot;)+(t8n-arrive:&quot;flicker&quot;)+(t8n-time:2s)[[Index-&gt;Index]]
+
+</tw-passagedata></tw-storydata>
 <script title="Twine engine code" data-main="harlowe">(function(){"use strict";
 var require,define;!function(){var e={},r={};require=function(i){var n=e[i];return n&&(r[i]=n[1].apply(void 0,n[0].map(require)),e[i]=void 0),r[i]},(define=function(r,i,n){if("function"==typeof r)return r();e[r]=[i,n]}).amd=!0}();/*!
  * https://github.com/paulmillr/es6-shim
